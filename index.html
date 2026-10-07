@@ -1,143 +1,652 @@
-
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+
     <title>Sweeten Tools-HSE & ISO Consultancy | Safety Consultancy | ISO Consultancy | Sweeten Tools</title>
+
     <meta name="description" content="Sweeten Tools provides HSE, Safety and ISO Consultancy services including ISO45001, ISO14001, ISO9001, HSE audits and Safety Management System consultancy.">
-    <meta name="keywords" content="HSE Consultancy, safety consultancy, safety consultant, HSE consultant, ISO consultancy, ISO45001 consultancy, ISO14001 consultancy, ISO9001 consultancy, HSE audit.">
+
+    <meta name="keywords" content="HSE Consultancy, safety consultancy, safety consultant, HSE consultant, ISO consultancy, ISO45001 consultancy, ISO14001 consultancy, ISO9001 consultancy, HSE audit">
+
     <meta name="robots" content="index, follow">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <style>
-        body{margin:0; font-family:Arial, sans-serif;}}
-        header{background-color:#123558; color:white; text-align:center; padding:30px;}
-        header h1{margin:0; font-size:40px;}
-        header p{font-size:20px; margin-top:10px;}
-        nav{background-color:#333;
-          padding:15px; text-align:center;}
-        nav a{color:white; text-decoration:none; margin:0 15px; font-size:18px;}        
-h1{font-size:40px; text-align:center;}
-h2{color:blue; text-align:center;}
-p{font-size:18px; width:90%; max-width:700px; margin:15px auto; padding:0 10px; text-align:center; box-sizing:border-box; overflow-wrap:break-word}
-.service{background-color:#f2f2f2; width:90%; max-widt: ;h:600px; margin:12px auto; padding:10px; border-radius:6px; text-align:center;}
-.service h3{color:blue; font-size:18px; margin:5px; line-height:1.3;}
-.service p{color:black; font-size:15px; margin:10px 5px;}#42445A
-body{margin:0; padding:0; width:100%; overflow-x: hidden;}
-p{max-width:900px; width:90%; margin:15px auto; text-align:center; box-sizing:border-box;}
-html, body{width:100%; max-width:100%; margin:0; padding:0; overflow-x: hidden; box-sizing:border-box;}
 
-p{width:90%; max-width:700px; margin:15px auto; padding:0 10px; text-align:center; box-sizing:border-box; overflow-wrap:break-word;}
-.contact{background-color:#f2f2f2; width:90%; max-width:600px; margin:40px auto; padding:25px; border-radius:10px; box-sizing:border-box;}
-.contact h2{color:blue; text-align:center;}
-.contact p{text-align:center; font-size:18px;}
-.contact h3{text-align:center; font-size:24px;}
-.contact info{margin:24px 0}
-.contact form{display:flex; flex-direction:column;}
-.contact input, .contact textarea{padding:12px; margin:8px; font-size:16px; border:1px solid #ccc; border-radius:5px; box-sizibg:border-box}
-.contact button{background-color:blue; color:white; padding:12px; border:none; border-radius:5px; font-size:18px; margin-top:10px; cursor:pointer;}
-form{width:90%; max-width:600px; margin:20px auto;}
-form label{display:black; margin-top:15px; font-size:18px;}
-form input, form textarea{width:100%; padding:12px; margin-top:5px; box-sizing:border-box; font-size:16px;}
-form textarea{height:120px;}
-form button{nargin-top:20px; padding:12px 25px; font-size:18px; }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
 
-button{background-color:blue; color:white; padding:12px 25px; border:none; border-radius:5px; font-size:18px; cuesor:pointer;}
-button:hover{background-color:#124558;}
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            color: #263238;
+            background: #f5f8fb;
+        }
+
+        /* HEADER */
+
+        header {
+            background: linear-gradient(135deg, #0b3558, #1464a0);
+            color: white;
+            text-align: center;
+            padding: 45px 20px;
+        }
+
+        header h1 {
+            font-size: 42px;
+            margin-bottom: 8px;
+        }
+
+        header p {
+            font-size: 20px;
+            margin: 0;
+        }
+
+        /* NAVIGATION */
+
+        nav {
+            background: #082b46;
+            text-align: center;
+            padding: 15px 10px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 14px;
+            font-size: 17px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #7dd3fc;
+        }
+
+        /* HERO */
+
+        .hero {
+            background: white;
+            text-align: center;
+            padding: 70px 20px;
+        }
+
+        .hero h2 {
+            color: #0b568c;
+            font-size: 36px;
+            margin-bottom: 15px;
+        }
+
+        .hero h3 {
+            color: #263238;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            max-width: 850px;
+            margin: auto;
+            font-size: 18px;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 14px 28px;
+            background: #0b568c;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background: #082b46;
+        }
+
+        /* SECTIONS */
+
+        section {
+            padding: 60px 20px;
+        }
+
+        .section-title {
+            text-align: center;
+            color: #0b568c;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .section-text {
+            max-width: 850px;
+            margin: 0 auto 30px;
+            text-align: center;
+            font-size: 18px;
+        }
+
+        /* ABOUT */
+
+        .about {
+            background: #eef5fa;
+        }
+
+        /* WHY CHOOSE US */
+
+        .why {
+            background: white;
+        }
+
+        .why-list {
+            max-width: 850px;
+            margin: 30px auto;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+        }
+
+        .why-item {
+            background: #f5f8fb;
+            padding: 20px;
+            border-left: 5px solid #0b568c;
+            border-radius: 6px;
+            font-size: 17px;
+        }
+
+        /* SERVICES */
+
+        .services {
+            background: #eef5fa;
+        }
+
+        .service-container {
+            max-width: 1100px;
+            margin: 30px auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .service {
+            background: white;
+            padding: 28px 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+            border-top: 5px solid #0b568c;
+        }
+
+        .service-icon {
+            font-size: 40px;
+            margin-bottom: 12px;
+        }
+
+        .service h3 {
+            color: #0b568c;
+            font-size: 19px;
+            margin-bottom: 10px;
+        }
+
+        .service p {
+            font-size: 15px;
+            color: #555;
+        }
+
+        /* ISO SECTION */
+
+        .iso-section {
+            background: white;
+        }
+
+        .iso-container {
+            max-width: 1000px;
+            margin: 30px auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .iso-card {
+            background: #f5f8fb;
+            padding: 30px 20px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        .iso-card h3 {
+            color: #0b568c;
+            font-size: 25px;
+            margin-bottom: 10px;
+        }
+
+        /* CONTACT */
+
+        .contact {
+            background: #eef5fa;
+        }
+
+        .contact-box {
+            max-width: 700px;
+            margin: auto;
+            background: white;
+            padding: 35px;
+            border-radius: 10px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+        }
+
+        form {
+            width: 100%;
+        }
+
+        form label {
+            display: block;
+            margin-top: 15px;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        form input,
+        form textarea {
+            width: 100%;
+            padding: 13px;
+            border: 1px solid #ccd6df;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        form textarea {
+            height: 130px;
+            resize: vertical;
+        }
+
+        form button {
+            width: 100%;
+            margin-top: 20px;
+            padding: 14px;
+            background: #0b568c;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background: #082b46;
+        }
+
+        .contact-info {
+            text-align: center;
+            margin-top: 30px;
+            line-height: 1.9;
+        }
+
+        /* FOOTER */
+
+        footer {
+            background: #082b46;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        footer p {
+            margin: 5px;
+        }
+
+        /* MOBILE */
+
+        @media (max-width: 768px) {
+
+            header h1 {
+                font-size: 32px;
+            }
+
+            header p {
+                font-size: 17px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px 8px;
+                font-size: 15px;
+            }
+
+            .hero h2 {
+                font-size: 29px;
+            }
+
+            .hero h3 {
+                font-size: 21px;
+            }
+
+            .why-list {
+                grid-template-columns: 1fr;
+            }
+
+            .service-container {
+                grid-template-columns: 1fr;
+            }
+
+            .iso-container {
+                grid-template-columns: 1fr;
+            }
+
+            section {
+                padding: 45px 15px;
+            }
+
+            .contact-box {
+                padding: 25px 18px;
+            }
+        }
+
     </style>
 </head>
 
 <body>
 
+<header>
+    <h1>Sweeten Tools</h1>
+    <p>HSE & Safety Consultancy</p>
+</header>
+
 <nav>
-    <a href="#">Home</a>
-    <a href="#">About Us</a>
-    <a href="#">Services</a>
-    <a href="#contact""">Contact</a>
+    <a href="#home">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#services">Services</a>
+    <a href="#why">Why Choose Us</a>
+    <a href="#contact">Contact</a>
 </nav>
-<h1>Sweeten Tools - HSE & Safety Consultancy</h1>
-<h2>Welcome to Sweeten Tools</h2>
 
-<p>Welcome to Sweeten Tools, your trusted partner for HSE, Safety, IMS and ISO Consultancy Services. We provide professional Health, Safety and Environment solutions, ISO45001, ISO14001 and ISO9001 consultancy, HSE audits and Safety Management System support to help organizations improve safety, quality and compliance.</p>
-<h2>Why Choose Sweeten Tools</h2>
+<!-- HERO -->
 
-<p>We provide practical and professional HSE, IMS and ISO Consultancy Services to help organizations achieve better Safety, Quality and Compliance</p>
+<section class="hero" id="home">
 
-<ul>
-    <li>Experienced HSE & ISO Consultancy</li>
-    <li>Professional Safety Management Solutions</li>
-    <li>IMS Implementation and Auditing</li>
-    <li>ISO45001, ISO14001 & ISO9001 Support</li>
-    <li>Practical Solutions for Workplace Safety</li>
-</ul>
-<div class="Home button">
-    <a href="#Contact">Contact Us</a>
-</div>
-  
-<h2>HSE & ISO Consultancy</h2>
+    <h2>HSE, Safety, IMS & ISO Consultancy</h2>
 
-<p>Professional Health Safety Environment and ISO Consultancy Services</p>
-<h2>About Us</h2>
+    <h3>Professional Health, Safety, Environment and ISO Consultancy Services</h3>
 
-<p>Sweeten Tools is an HSE and ISO Consultancy providing professional Health, Safety,and Environmental Services along with ISO Management System Consultancy and support</p>
+    <p>
+        Sweeten Tools provides practical and professional HSE, Safety, IMS
+        and ISO Consultancy Services to help organizations improve workplace
+        safety, environmental performance, quality and compliance.
+    </p>
 
-<h2>Our Services</h2>
+    <a class="button" href="#contact">Get Consultation</a>
 
-<div class="service">
-     <h3>HSE and Safety Management System Consultancy</h3>
-</div>
+</section>
 
-<div class="service">
-    <h3>ISO 45001 Occupational Health & Safety Consultancy</h3>
-</div>
+<!-- ABOUT -->
 
-<div class="service">
-    <h3>ISO 14001 Environmental Management Consultancy</h3>
-</div>
-  
-<div class="service">
-    <h3>ISO 9001 Quality Management System Consultancy</h3>
-</div>
-  
-<div class="service">
-    <h3>HSE & Safety Audits and Inspections</h3>
-</div>
-  
-<div class="service">
-    <h3>Risk Assessment and Job Safety Analysis</h3>
-</div>
-  
-<div class="service">
-    <h3>Incident Investigation and Root Cause Analysis</h3>
-</div>
+<section class="about" id="about">
 
-<div class="service">
-    <h3>HAZOP, HAZID and LOPA Support</h3>
-</div>
+    <h2 class="section-title">About Sweeten Tools</h2>
 
-<section id="Contact">
-    <h2>Contact Us</h2>
-<form action="https://formspree.io/f/mnpqwlqj" method="POST">
-    <label>Name</label>
-    <input type="text" name="name" placeholder="Enter your name" required>
-    <label>Email</label>
-    <input type="Email" name="email" placeholder="Enter your email" required>
-    <label>Phone</label>
-    <input type="tel" name="phone" placeholder="Enter your phone number" required>
-    <label>Message</label>
-    <textarea name="message" placeholder="Enter your message" required></textarea>
-    
-    <br><br>
-    <button type="submit">Send Message</button>
-    
-</form>
-    
+    <p class="section-text">
+        Sweeten Tools is an HSE and ISO Consultancy providing professional
+        Health, Safety and Environmental Services along with ISO Management
+        System Consultancy and support.
+    </p>
+
+    <p class="section-text">
+        Our focus is on practical solutions that help organizations strengthen
+        their Safety Management Systems, improve compliance and achieve
+        continual improvement.
+    </p>
+
+</section>
+
+<!-- WHY CHOOSE US -->
+
+<section class="why" id="why">
+
+    <h2 class="section-title">Why Choose Sweeten Tools</h2>
+
+    <p class="section-text">
+        We provide practical and professional consultancy solutions
+        focused on Safety, Quality, Environment and Compliance.
+    </p>
+
+    <div class="why-list">
+
+        <div class="why-item">
+            ✓ Experienced HSE & ISO Consultancy
+        </div>
+
+        <div class="why-item">
+            ✓ Professional Safety Management Solutions
+        </div>
+
+        <div class="why-item">
+            ✓ IMS Implementation and Auditing
+        </div>
+
+        <div class="why-item">
+            ✓ ISO 45001, ISO 14001 & ISO 9001 Support
+        </div>
+
+        <div class="why-item">
+            ✓ Practical Workplace Safety Solutions
+        </div>
+
+        <div class="why-item">
+            ✓ Risk Assessment and Safety Improvement Support
+        </div>
+
+    </div>
+
+</section>
+
+<!-- SERVICES -->
+
+<section class="services" id="services">
+
+    <h2 class="section-title">Our Services</h2>
+
+    <p class="section-text">
+        Professional consultancy and support for HSE, Safety, IMS and ISO
+        Management Systems.
+    </p>
+
+    <div class="service-container">
+
+        <div class="service">
+            <div class="service-icon">🦺</div>
+            <h3>HSE & Safety Management System Consultancy</h3>
+            <p>
+                Support for developing and improving effective HSE and
+                Safety Management Systems.
+            </p>
+        </div>
+
+        <div class="service">
+            <div class="service-icon">🛡️</div>
+            <h3>ISO 45001 Occupational Health & Safety</h3>
+            <p>
+                Consultancy and implementation support for ISO 45001
+                Occupational Health & Safety Management Systems.
+            </p>
+        </div>
+
+        <div class="service">
+            <div class="service-icon">🌱</div>
+            <h3>ISO 14001 Environmental Management</h3>
+            <p>
+                Support for Environmental Management Systems and
+                ISO 14001 implementation.
+            </p>
+        </div>
+
+        <div class="service">
+            <div class="service-icon">📋</div>
+            <h3>ISO 9001 Quality Management</h3>
+            <p>
+                Consultancy support for Quality Management Systems
+                and ISO 9001 requirements.
+            </p>
+        </div>
+
+        <div class="service">
+            <div class="service-icon">🔍</div>
+            <h3>HSE & Safety Audits and Inspections</h3>
+            <p>
+                Professional audits and inspections to identify
+                safety gaps and improvement opportunities.
+            </p>
+        </div>
+
+        <div class="service">
+            <div class="service-icon">⚠️</div>
+            <h3>Risk Assessment & Job Safety Analysis</h3>
+            <p>
+                Risk assessment and JSA support for identifying
+                hazards and controlling workplace risks.
+            </p>
+        </div>
+
+        <div class="service">
+            <div class="service-icon">🔎</div>
+            <h3>Incident Investigation & Root Cause Analysis</h3>
+            <p>
+                Structured investigation and root cause analysis
+                to support corrective and preventive actions.
+            </p>
+        </div>
+
+        <div class="service">
+            <div class="service-icon">🏭</div>
+            <h3>HAZOP, HAZID & LOPA Support</h3>
+            <p>
+                Support for process safety studies including HAZOP,
+                HAZID and LOPA.
+            </p>
+        </div>
+
+        <div class="service">
+            <div class="service-icon">📊</div>
+            <h3>IMS & Management System Support</h3>
+            <p>
+                Integrated Management System support covering
+                Safety, Environment and Quality.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ISO -->
+
+<section class="iso-section">
+
+    <h2 class="section-title">ISO Consultancy Expertise</h2>
+
+    <p class="section-text">
+        Support for organizations seeking to develop, implement and improve
+        management systems.
+    </p>
+
+    <div class="iso-container">
+
+        <div class="iso-card">
+            <h3>ISO 45001</h3>
+            <p>
+                Occupational Health & Safety Management System
+            </p>
+        </div>
+
+        <div class="iso-card">
+            <h3>ISO 14001</h3>
+            <p>
+                Environmental Management System
+            </p>
+        </div>
+
+        <div class="iso-card">
+            <h3>ISO 9001</h3>
+            <p>
+                Quality Management System
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section class="contact" id="contact">
+
+    <h2 class="section-title">Contact Sweeten Tools</h2>
+
+    <p class="section-text">
+        For HSE consultancy, ISO consultancy, audits, safety services
+        and management system support, please contact us.
+    </p>
+
+    <div class="contact-box">
+
+        <form action="https://formspree.io/f/mnpqwlqj" method="POST">
+
+            <label>Name</label>
+            <input type="text" name="name" placeholder="Enter your name" required>
+
+            <label>Email</label>
+            <input type="email" name="email" placeholder="Enter your email" required>
+
+            <label>Phone</label>
+            <input type="tel" name="phone" placeholder="Enter your phone number" required>
+
+            <label>Message</label>
+            <textarea name="message" placeholder="Tell us how we can help you" required></textarea>
+
+            <button type="submit">Send Message</button>
+
+        </form>
+
+        <div class="contact-info">
+
+            <p><strong>Sweeten Tools</strong></p>
+
+            <p>HSE & ISO Consultancy</p>
+
+            <p><strong>Phone:</strong> +91 7060239646 / 9537739646</p>
+
+            <p><strong>Email:</strong> jitendra.agrawal114@gmail.com</p>
+
+            <p><strong>Location:</strong> Gujarat, India</p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
     <p><strong>Sweeten Tools</strong></p>
-    <p>HSE & ISO Consultancy</p>
-    <p>For consultancy, audit and HSE sevices please contact us.</p>
-    <p><strong>Phone:</strong>+91 7060239646/9537739646</p>
-    <p><strong>Email:</strong>jitendra.agrawal114@gmail.com</p>
-    <p><strong>Location:</strong>Gujarat India</p>
-    </section>
-    
-    </body>
-    
-    <form>
-    
-<html>
+
+    <p>HSE & Safety Consultancy | ISO Consultancy</p>
+
+    <p>© 2026 Sweeten Tools. All Rights Reserved.</p>
+
+</footer>
+
+</body>
+</html>
+
