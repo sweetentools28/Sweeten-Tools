@@ -1,7 +1,339 @@
-echo "# Sweeten-Tools-Web-Solutions-" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/sweetentools28/Sweeten-Tools-Web-Solutions-.git
-git push -u origin main
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sweeten Web Solutions | Website Development & SEO Services</title>
+
+    <meta name="description" content="Sweeten Web Solutions provides professional website development, responsive websites, e-commerce websites, SEO and website maintenance services.">
+
+    <meta name="keywords" content="website development, web development company, website design, SEO services, e-commerce website, responsive website, website developer">
+
+    <meta name="robots" content="index, follow">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f8fc;
+        }
+
+        header {
+            background: #0757a5;
+            color: white;
+            text-align: center;
+            padding: 25px 15px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        header p {
+            margin: 8px 0 0;
+            font-size: 18px;
+        }
+
+        nav {
+            background: #063f78;
+            text-align: center;
+            padding: 12px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 12px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background: white;
+        }
+
+        .hero h2 {
+            color: #0757a5;
+            font-size: 32px;
+        }
+
+        .hero p {
+            max-width: 750px;
+            margin: auto;
+            font-size: 18px;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 25px;
+            background: #0757a5;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 45px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        section h2 {
+            text-align: center;
+            color: #0757a5;
+            margin-bottom: 25px;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .service {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        .service h3 {
+            color: #0757a5;
+        }
+
+        .pricing {
+            background: white;
+            padding: 25px;
+            margin: 15px 0;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .pricing h3 {
+            color: #0757a5;
+        }
+
+        .contact {
+            text-align: center;
+            background: white;
+            border-radius: 8px;
+        }
+
+        footer {
+            background: #063f78;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 26px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px;
+            }
+
+            .hero h2 {
+                font-size: 26px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Sweeten Web Solutions</h1>
+    <p>Professional Website Development & Digital Solutions</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#services">Services</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero" id="home">
+
+    <h2>Build Your Professional Online Presence</h2>
+
+    <p>
+        Sweeten Web Solutions provides affordable and professional
+        website development, responsive web design, e-commerce,
+        SEO and website maintenance services for businesses.
+    </p>
+
+    <a class="button" href="#contact">Get a Website</a>
+
+</section>
+
+<section id="about">
+
+    <h2>About Us</h2>
+
+    <p>
+        Sweeten Web Solutions helps businesses establish a strong
+        online presence through modern, mobile-friendly and
+        professional websites.
+    </p>
+
+    <p>
+        We focus on simple design, responsive websites, search
+        engine optimization and practical digital solutions that
+        help businesses reach more customers online.
+    </p>
+
+</section>
+
+<section id="services">
+
+    <h2>Our Services</h2>
+
+    <div class="services">
+
+        <div class="service">
+            <h3>Business Website Development</h3>
+            <p>
+                Professional websites for companies, shops,
+                consultants, professionals and small businesses.
+            </p>
+        </div>
+
+        <div class="service">
+            <h3>Responsive Web Design</h3>
+            <p>
+                Websites designed to work properly on mobile phones,
+                tablets and computers.
+            </p>
+        </div>
+
+        <div class="service">
+            <h3>E-Commerce Websites</h3>
+            <p>
+                Online stores for businesses that want to sell
+                products and services online.
+            </p>
+        </div>
+
+        <div class="service">
+            <h3>SEO Services</h3>
+            <p>
+                Basic SEO setup, Google indexing support,
+                keywords and website optimization.
+            </p>
+        </div>
+
+        <div class="service">
+            <h3>Website Maintenance</h3>
+            <p>
+                Website updates, content changes, technical
+                improvements and regular maintenance.
+            </p>
+        </div>
+
+        <div class="service">
+            <h3>Domain & Hosting Support</h3>
+            <p>
+                Assistance with domain registration, hosting,
+                GitHub Pages and website deployment.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="portfolio">
+
+    <h2>Our Portfolio</h2>
+
+    <p style="text-align:center;">
+        We are building our portfolio with professional websites
+        created for businesses and organizations.
+    </p>
+
+    <div class="service">
+        <h3>Sweeten Tools</h3>
+        <p>
+            HSE, Safety, IMS and ISO Consultancy website.
+        </p>
+    </div>
+
+</section>
+
+<section id="pricing">
+
+    <h2>Website Packages</h2>
+
+    <div class="pricing">
+        <h3>Basic Business Website</h3>
+        <p>Starting from ₹4,999</p>
+        <p>Professional business website with essential pages.</p>
+    </div>
+
+    <div class="pricing">
+        <h3>Professional Website</h3>
+        <p>Starting from ₹9,999</p>
+        <p>Modern responsive website with additional features.</p>
+    </div>
+
+    <div class="pricing">
+        <h3>E-Commerce Website</h3>
+        <p>Starting from ₹19,999</p>
+        <p>Online store solutions for product-based businesses.</p>
+    </div>
+
+</section>
+
+<section id="contact" class="contact">
+
+    <h2>Contact Us</h2>
+
+    <p>
+        Interested in building a professional website for your business?
+    </p>
+
+    <p>
+        Contact Sweeten Web Solutions for a website development
+        consultation.
+    </p>
+
+    <p>
+        <strong>Email:</strong> your-email@example.com
+    </p>
+
+    <p>
+        <strong>Phone:</strong> +91-XXXXXXXXXX
+    </p>
+
+</section>
+
+<footer>
+
+    <p>
+        © 2026 Sweeten Web Solutions. All Rights Reserved.
+    </p>
+
+</footer>
+
+</body>
+</html>
