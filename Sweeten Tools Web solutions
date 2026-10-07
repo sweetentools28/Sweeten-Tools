@@ -1,0 +1,7 @@
+echo "# Sweeten-Tools-Web-Solutions-" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/sweetentools28/Sweeten-Tools-Web-Solutions-.git
+git push -u origin main
